@@ -25,7 +25,6 @@ body {
   clip: rect(0, 900px, 0, 0);
   -webkit-animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
   animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
-  animation: glitch-anim-2 2s infinite linear alternate-reverse;
   -webkit-transform: skewX(0deg);
   transform: skewX(0deg);
   z-index: -2;
@@ -43,7 +42,6 @@ body {
   clip: rect(0, 900px, 0, 0);
   -webkit-animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
   animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
-  animation: glitch-anim-1 2s infinite linear alternate-reverse;
   -webkit-transform: skewX(0deg);
   transform: skewX(0deg);
   z-index: -1;
@@ -271,51 +269,5 @@ body {
   71% {
     -webkit-transform: skewX(10deg) skewY(-10deg);
     transform: skewX(10deg) skewY(-10deg); } }
-@-webkit-keyframes glitch-anim-1 {
-  0% {
-    clip: rect(9px, 9999px, 72px, 0); }
-  10% {
-    clip: rect(28px, 9999px, 35px, 0); }
-  20% {
-    clip: rect(37px, 9999px, 13px, 0); }
-  30% {
-    clip: rect(24px, 9999px, 76px, 0); }
-  40% {
-    clip: rect(36px, 9999px, 86px, 0); }
-  50% {
-    clip: rect(55px, 9999px, 3px, 0); }
-  60% {
-    clip: rect(12px, 9999px, 3px, 0); }
-  70% {
-    clip: rect(39px, 9999px, 49px, 0); }
-  80% {
-    clip: rect(56px, 9999px, 7px, 0); }
-  90% {
-    clip: rect(85px, 9999px, 8px, 0); }
-  100% {
-    clip: rect(62px, 9999px, 17px, 0); } }
-@-webkit-keyframes glitch-anim-2 {
-  0% {
-    clip: rect(19px, 9999px, 19px, 0); }
-  10% {
-    clip: rect(77px, 9999px, 35px, 0); }
-  20% {
-    clip: rect(33px, 9999px, 19px, 0); }
-  30% {
-    clip: rect(75px, 9999px, 60px, 0); }
-  40% {
-    clip: rect(88px, 9999px, 44px, 0); }
-  50% {
-    clip: rect(44px, 9999px, 53px, 0); }
-  60% {
-    clip: rect(70px, 9999px, 54px, 0); }
-  70% {
-    clip: rect(98px, 9999px, 14px, 0); }
-  80% {
-    clip: rect(84px, 9999px, 14px, 0); }
-  90% {
-    clip: rect(85px, 9999px, 47px, 0); }
-  100% {
-    clip: rect(62px, 9999px, 87px, 0); } }
 
 /*# sourceMappingURL=1.css.map */
